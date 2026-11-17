@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Engineering | Shah & Anchor Kutchhi Engineering College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-bar">
+      <div>
+        <h1>Shah & Anchor Kutchhi Engineering College</h1>
+        <p>Department of Computer Engineering</p>
+      </div>
+      <nav>
+        <a href="#faculty">Faculty</a>
+        <a href="#labs">Labs</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#placements">Placements</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Department of Computer Engineering</h2>
+      <p>Empowering students with practical computing skills, research exposure, and strong industry placements in Chembur, Mumbai.</p>
+    </div>
+  </section>
+
+  <!-- Faculty Section -->
+  <section id="faculty" class="section">
+    <div class="container">
+      <div class="section-top">
+        <h2>Faculty Members</h2>
+        <select id="roleFilter">
+          <option value="All">All Faculty</option>
+          <option value="Professor">Professor</option>
+          <option value="Associate Professor">Associate Professor</option>
+          <option value="Assistant Professor">Assistant Professor</option>
+        </select>
+      </div>
+      <div id="facultyList" class="grid"></div>
+    </div>
+  </section>
+
+  <!-- Laboratories Section -->
+  <section id="labs" class="section bg-gray">
+    <div class="container">
+      <h2>Laboratories</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>AI & Machine Learning Lab</h3>
+          <p>30 GPU workstations with Python, TensorFlow, and PyTorch.</p>
+        </div>
+        <div class="card">
+          <h3>Programming & Data Structures Lab</h3>
+          <p>35 Linux/Windows desktops with C, C++, Java, and VS Code.</p>
+        </div>
+        <div class="card">
+          <h3>Networks & Security Lab</h3>
+          <p>30 systems equipped with Cisco Packet Tracer and Wireshark.</p>
+        </div>
+        <div class="card">
+          <h3>Database & Cloud Lab</h3>
+          <p>30 systems configured with PostgreSQL, MongoDB, and Docker.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Syllabus Section -->
+  <section id="syllabus" class="section">
+    <div class="container">
+      <div class="section-top">
+        <h2>Syllabus (B.E. Computer Engineering)</h2>
+        <div id="semButtons">
+          <button class="sem-btn active" data-sem="3">Sem III</button>
+          <button class="sem-btn" data-sem="4">Sem IV</button>
+          <button class="sem-btn" data-sem="5">Sem V</button>
+          <button class="sem-btn" data-sem="6">Sem VI</button>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Subject</th>
+            <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody id="syllabusBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section bg-gray">
+    <div class="container">
+      <h2>Achievements</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Smart India Hackathon</h3>
+          <p>First prize winners in the Software Edition for an AI traffic solution.</p>
+        </div>
+        <div class="card">
+          <h3>Research Publications</h3>
+          <p>40+ peer-reviewed papers published by faculty and students in IEEE & Scopus.</p>
+        </div>
+        <div class="card">
+          <h3>ACM & CSI Chapters</h3>
+          <p>Regular coding competitions, hackathons, and technical workshops.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placements Section -->
+  <section id="placements" class="section">
+    <div class="container">
+      <h2>Placement Statistics</h2>
+      <div class="stats">
+        <div class="stat-box">
+          <h3>92%</h3>
+          <p>Students Placed</p>
+        </div>
+        <div class="stat-box">
+          <h3>₹ 24 LPA</h3>
+          <p>Highest Package</p>
+        </div>
+        <div class="stat-box">
+          <h3>₹ 6.8 LPA</h3>
+          <p>Average Package</p>
+        </div>
+      </div>
+      <p class="recruiters">
+        <strong>Top Recruiters:</strong> TCS, Infosys, Capgemini, Accenture, LTIMindtree, JPMorgan Chase, Deloitte
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p><strong>Shah & Anchor Kutchhi Engineering College</strong> — Chembur, Mumbai - 400088</p>
+      <p>© 2026 Department of Computer Engineering | Deployed on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
